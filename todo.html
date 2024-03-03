@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do list</title>
-    <link rel="icon" href="images/search.png">
+    <link rel="stylesheet" href="todo.css"> 
 </head>
 <body>
 <div class="container">
-        <div >
-            <h2>To-do list <img src="images/icon.png"> </h2>
+        <div class="todo">
+            <h2>To-do list </h2>
             <div class="row">
                 <input type ="text" id="input-box" placeholder="Add your text">
-                <button>ADD</button>
+                <button onclick="addtask()">ADD</button>
             
             </div>
             <ul id= "listcontainer">
             
-                <li div > </li>
+                <li div class="checked"> </li>
                 
             </ul>    
         
         </div>
 </div> 
+<script src="todo.js"></script>
 </body>
 </html>  
